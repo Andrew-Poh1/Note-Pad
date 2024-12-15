@@ -52,6 +52,7 @@ function displayNotes() {
 function deleteNote(id){
     notes = notes.filter(note => note.id !== id); //notes array now equalls every note that does not have the id of the input id
     displayNotes();
+    saveNotes();//save notes after delete
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
