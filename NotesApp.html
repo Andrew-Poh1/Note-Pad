@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Notes app</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div id="pageWrapper">
     <form id="noteForm">
         <input type="text" id="noteTitle" placeholder="Title" required>
         <textarea id="noteContent" placeholder="Content" required></textarea>
         <button type="submit">Add Note</button>
     </form>
     <div id="notesContainer"></div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
